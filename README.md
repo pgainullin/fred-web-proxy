@@ -1,10 +1,9 @@
 # St. Louis FRED Economic Data Web Proxy
 
 > [!WARNING]
-> **This repository is no longer maintained.** It is archived as-is and will
+> **This repository is no longer maintained.** It is provided as-is and will
 > not receive further updates, security patches, or support. Feel free to fork
-> it if you wish to continue development. Dependabot and security alerts have
-> been disabled for this repository.
+> it if you wish to continue development.
 
 A Firebase Cloud Function that acts as a web proxy to access the [St. Louis Federal Reserve Economic Data (FRED) API](https://fred.stlouisfed.org/).
 
@@ -26,7 +25,7 @@ This project provides a serverless solution to proxy requests to the St. Louis F
 
 ## Prerequisites
 
-- **Node.js** (version 18 or higher)
+- **Node.js** (version 20)
 - **npm** (Node Package Manager)
 - **Firebase CLI**: Install globally using `npm install -g firebase-tools`
 - A **Firebase Project**: Create one at [Firebase Console](https://console.firebase.google.com/)
